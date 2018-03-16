@@ -1,0 +1,366 @@
+/* line 1, ../sass/base/_base.scss */
+body {
+  background-color: #f2f2f2;
+}
+
+/* line 1, ../sass/module/_topbar.scss */
+.topbar {
+  background-color: #AC3C3C;
+  margin-top: 0px;
+  padding: 10px 0px;
+}
+/* line 5, ../sass/module/_topbar.scss */
+.topbar h4 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* line 1, ../sass/module/_secondbar.scss */
+a, a:hover {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* line 6, ../sass/module/_secondbar.scss */
+.socialbtns {
+  margin-top: 10px;
+}
+/* line 8, ../sass/module/_secondbar.scss */
+.socialbtns ul {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+
+/* line 14, ../sass/module/_secondbar.scss */
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+/* line 19, ../sass/module/_secondbar.scss */
+.socialbtnsbtnsbtns li {
+  list-style: none outside none;
+  display: inline-block;
+}
+
+/* line 24, ../sass/module/_secondbar.scss */
+.socialbtns li {
+  list-style: none outside none;
+  display: inline-block;
+}
+
+/* line 29, ../sass/module/_secondbar.scss */
+.socialbtns .fa {
+  color: #FFF;
+  text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
+  -webkit-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
+  -moz-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
+  -o-text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
+  transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+}
+
+/* line 53, ../sass/module/_secondbar.scss */
+.socialbtns .fa:hover {
+  color: #000;
+  text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
+  -webkit-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
+  -moz-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
+  -o-text-shadow: 1px 1px 0px #fff, 1px -1px 0px #fff, -1px 1px 0px #fff, -1px -1px 0px #fff;
+  transition: all ease 0.5s;
+  -moz-transition: all ease-in 0.5s;
+  -webkit-transition: all ease-in 0.5s;
+  -o-transition: all ease-in 0.5s;
+}
+
+/* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  background-color: #DADADA;
+  border-radius: 0px;
+}
+/* line 4, ../sass/module/_navbar.scss */
+.navbar a {
+  color: #303030;
+  transition: 0.3s;
+}
+/* line 8, ../sass/module/_navbar.scss */
+.navbar a:hover, .navbar a:active, .navbar a:focus {
+  color: #565656;
+}
+
+/* line 13, ../sass/module/_navbar.scss */
+.navbar-header {
+  margin-left: 0px;
+}
+
+/* line 17, ../sass/module/_navbar.scss */
+.mega-dropdown {
+  position: static !important;
+}
+
+/* line 20, ../sass/module/_navbar.scss */
+.mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* line 26, ../sass/module/_navbar.scss */
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 30, ../sass/module/_navbar.scss */
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+/* line 33, ../sass/module/_navbar.scss */
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+
+/* line 38, ../sass/module/_navbar.scss */
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+
+/* line 42, ../sass/module/_navbar.scss */
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+/* line 49, ../sass/module/_navbar.scss */
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+}
+
+/* line 55, ../sass/module/_navbar.scss */
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+
+/* line 59, ../sass/module/_navbar.scss */
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+/* line 10, ../sass/module/_heroslider.scss */
+.fade-carousel {
+  position: relative;
+  height: 80vh;
+}
+
+/* line 14, ../sass/module/_heroslider.scss */
+.fade-carousel .carousel-inner .item {
+  height: 100vh;
+}
+
+/* line 17, ../sass/module/_heroslider.scss */
+.fade-carousel .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
+}
+
+/* line 23, ../sass/module/_heroslider.scss */
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+/* line 32, ../sass/module/_heroslider.scss */
+.hero {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 47, ../sass/module/_heroslider.scss */
+.hero h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 54, ../sass/module/_heroslider.scss */
+.fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+
+/* line 62, ../sass/module/_heroslider.scss */
+.fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+/* line 74, ../sass/module/_heroslider.scss */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #080d15;
+  opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+/* line 86, ../sass/module/_heroslider.scss */
+.btn.btn-lg {
+  padding: 10px 40px;
+}
+
+/* line 87, ../sass/module/_heroslider.scss */
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+  color: #f5f5f5;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  outline: none;
+  margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+/* line 100, ../sass/module/_heroslider.scss */
+.fade-carousel {
+  margin-top: -20px;
+}
+
+/* line 103, ../sass/module/_heroslider.scss */
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* line 111, ../sass/module/_heroslider.scss */
+.fade-carousel .slides .slide-1 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818);
+}
+
+/* line 114, ../sass/module/_heroslider.scss */
+.fade-carousel .slides .slide-2 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+}
+
+/* line 117, ../sass/module/_heroslider.scss */
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+  /* line 125, ../sass/module/_heroslider.scss */
+  .hero {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 128, ../sass/module/_heroslider.scss */
+  .hero h1 {
+    font-size: 4em;
+  }
+}
+/* line 1, ../sass/module/_thanka1.scss */
+.thanka1 {
+  padding: 40px 0px;
+}
+/* line 3, ../sass/module/_thanka1.scss */
+.thanka1 h2 {
+  margin-bottom: 40px;
+}
+/* line 6, ../sass/module/_thanka1.scss */
+.thanka1 .card {
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+/* line 13, ../sass/module/_thanka1.scss */
+.video {
+  padding: 15px;
+}
+
+/* line 1, ../sass/module/_thanka2.scss */
+.thanka2 {
+  color: white;
+  padding: 40px 0px;
+  background-color: #363941;
+}
+/* line 5, ../sass/module/_thanka2.scss */
+.thanka2 h2 {
+  margin-bottom: 40px;
+}
+/* line 8, ../sass/module/_thanka2.scss */
+.thanka2 .card {
+  background-color: #40434c;
+  padding: 10px;
+  margin: 20px 0px;
+}
