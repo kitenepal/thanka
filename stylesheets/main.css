@@ -315,6 +315,56 @@ body {
   padding: 15px;
 }
 
+/* line 18, ../sass/module/_thanka1.scss */
+.viewmore {
+  margin-top: 20px;
+}
+/* line 20, ../sass/module/_thanka1.scss */
+.viewmore a {
+  text-decoration: none;
+  color: #363941;
+  transition: 0.3s;
+}
+/* line 25, ../sass/module/_thanka1.scss */
+.viewmore a:hover, .viewmore a:active, .viewmore a:focus {
+  color: #000 !important;
+}
+/* line 28, ../sass/module/_thanka1.scss */
+.viewmore .btnview {
+  background-color: #363941;
+  color: white;
+  background-color: none;
+  border-radius: 0px;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+
+/* line 38, ../sass/module/_thanka1.scss */
+.effect3 {
+  position: relative;
+}
+
+/* line 42, ../sass/module/_thanka1.scss */
+.effect3:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
 /* line 1, ../sass/module/_thanka2.scss */
 .thanka2 {
   color: white;
