@@ -192,16 +192,15 @@ body {
 .carousel-control {
   width: 30px;
   height: 30px;
-  top: -35px;
+  top: 50%;
 }
 
 /* line 55, ../sass/module/_navbar.scss */
 .left.carousel-control {
-  right: 30px;
   left: inherit;
 }
 
-/* line 59, ../sass/module/_navbar.scss */
+/* line 58, ../sass/module/_navbar.scss */
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
   font-size: 12px;
@@ -210,38 +209,90 @@ body {
   text-shadow: none;
   color: #333;
   border: 1px solid #ddd;
+  top: 0%;
 }
 
-/* line 1, ../sass/module/_heroslider.scss */
-.btn-min-block {
-  min-width: 170px;
-  line-height: 26px;
+/* line 71, ../sass/module/_navbar.scss */
+.carousel-caption {
+  padding-bottom: 70px !important;
 }
 
-/* line 6, ../sass/module/_heroslider.scss */
-.btn-clear {
-  color: #FFF;
-  background-color: transparent;
-  border-color: #FFF;
-  margin-right: 0px;
-}
-
-/* line 13, ../sass/module/_heroslider.scss */
-.btn-clear:hover {
-  color: #000;
-  background-color: #FFF;
-}
-
-/* line 18, ../sass/module/_heroslider.scss */
-.carousel {
-  margin-top: -20px;
-}
-
-/* line 23, ../sass/module/_heroslider.scss */
+/* line 77, ../sass/module/_navbar.scss */
 .carousel-inner img {
   margin: 0px;
   padding: 0px;
   width: 100%;
+}
+
+/* line 84, ../sass/module/_navbar.scss */
+.carousel-control.left {
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  filter: none !important;
+  background-repeat: none !important;
+}
+
+/* line 92, ../sass/module/_navbar.scss */
+.carousel-control.right {
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  filter: none !important;
+  background-repeat: none !important;
+}
+
+/* line 2, ../sass/module/_heroslider.scss */
+.heroslider .btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+/* line 7, ../sass/module/_heroslider.scss */
+.heroslider .btn-clear {
+  color: #FFF;
+  background-color: transparent;
+  border-color: #FFF;
+  margin-right: 0px;
+  transition: 0.3s;
+}
+/* line 15, ../sass/module/_heroslider.scss */
+.heroslider .btn-clear:hover {
+  background-color: #e20202;
+  border-color: #e20202;
+}
+/* line 20, ../sass/module/_heroslider.scss */
+.heroslider .carousel {
+  margin-top: -20px;
+}
+/* line 22, ../sass/module/_heroslider.scss */
+.heroslider .carousel-caption {
+  padding-bottom: 70px !important;
+}
+/* line 28, ../sass/module/_heroslider.scss */
+.heroslider .carousel-inner img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+/* line 35, ../sass/module/_heroslider.scss */
+.heroslider .carousel-control.left {
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  filter: none !important;
+  background-repeat: none !important;
+}
+/* line 43, ../sass/module/_heroslider.scss */
+.heroslider .carousel-control.right {
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  filter: none !important;
+  background-repeat: none !important;
 }
 
 /* line 1, ../sass/module/_thanka1.scss */

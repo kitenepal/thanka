@@ -1,28 +1,51 @@
-.btn-min-block {
-  min-width: 170px;
-  line-height: 26px;
-}
+.heroslider{
+  .btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+  }
 
-.btn-clear {
-  color: #FFF;
-  background-color: transparent;
-  border-color: #FFF;
-  margin-right: 0px;
-}
+  .btn-clear {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 0px;
+    transition: 0.3s;
+  }
 
-.btn-clear:hover {
-  color: #000;
-  background-color: #FFF;
-}
+  .btn-clear:hover {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
 
-.carousel{
-  margin-top: -20px;
-}
+  .carousel{
+    margin-top: -20px;
+    &-caption {
+        padding-bottom: 70px !important;
+    }
+  }
 
-.carousel-inner {
-  img {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+  .carousel-inner {
+    img {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+  }
+
+  .carousel-control.left {
+      background-image: none !important;
+      background-image: none !important;
+      background-image: none !important;
+      background-image: none !important;
+      filter: none !important;
+      background-repeat: none !important;
+  }
+  .carousel-control.right {
+      background-image: none !important;
+      background-image: none !important;
+      background-image: none !important;
+      background-image: none !important;
+      filter: none !important;
+      background-repeat: none !important;
   }
 }
