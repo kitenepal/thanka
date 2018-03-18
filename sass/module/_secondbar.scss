@@ -1,7 +1,15 @@
-a, a:hover {
-  color: #000;
-  text-decoration: none;
-  padding: 5px;
+
+.secondbar{
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  a, a:hover {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .btn{
+    margin: 5px 0px;
+  }
 }
 .socialbtns{
   margin-top: 10px;
