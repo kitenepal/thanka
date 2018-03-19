@@ -7,4 +7,13 @@
 		padding: 0;
 		color: white;
 	}
+	a{
+		color: yellow;
+		transition: 0.5s;
+		text-decoration: none;
+	}
+	a:hover, a:focus, a:active{
+		color: white;
+		text-shadow: 1px 1px 5px grey;
+	}
 }

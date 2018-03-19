@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 /* line 1, ../sass/base/_base.scss */
 body {
   background-image: url("../img/bg.png");
+}
+
+/* line 6, ../sass/base/_base.scss */
+.heading-font {
+  font-family: "Berkshire Swash", cursive;
 }
 
 /* line 1, ../sass/base/_mixin.scss */
@@ -51,6 +57,17 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+}
+/* line 10, ../sass/module/_topbar.scss */
+.topbar a {
+  color: yellow;
+  transition: 0.5s;
+  text-decoration: none;
+}
+/* line 15, ../sass/module/_topbar.scss */
+.topbar a:hover, .topbar a:focus, .topbar a:active {
+  color: white;
+  text-shadow: 1px 1px 5px grey;
 }
 
 /* line 2, ../sass/module/_secondbar.scss */
@@ -331,20 +348,24 @@ body {
 }
 /* line 28, ../sass/module/_thanka1.scss */
 .viewmore .btnview {
+  font-size: 16px;
+  border-radius: 0px;
+  padding: 5px 20px;
+  outline: 1px solid #363941;
+  transition: 0.3s;
+}
+/* line 38, ../sass/module/_thanka1.scss */
+.viewmore .btnview:hover {
   background-color: #363941;
   color: white;
-  background-color: none;
-  border-radius: 0px;
-  font-size: 16px;
-  padding: 5px 20px;
 }
 
-/* line 38, ../sass/module/_thanka1.scss */
+/* line 45, ../sass/module/_thanka1.scss */
 .effect3 {
   position: relative;
 }
 
-/* line 42, ../sass/module/_thanka1.scss */
+/* line 49, ../sass/module/_thanka1.scss */
 .effect3:before {
   z-index: -1;
   position: absolute;

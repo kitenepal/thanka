@@ -26,14 +26,21 @@
 		color: #000 !important;
 	}
 	.btnview{
+		// background-color: $darkbg;
+		// color: white;
+		// background-color: none;
+		font-size: 16px;
+		border-radius: 0px;
+		padding: 5px 20px; 
+		outline: 1px solid $darkbg;
+		transition: 0.3s;
+	}
+	.btnview:hover{
 		background-color: $darkbg;
 		color: white;
-		background-color: none;
-		border-radius: 0px;
-		font-size: 16px;
-		padding: 5px 20px; 
 	}
 }
+
 
 .effect3
 {
