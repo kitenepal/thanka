@@ -9,6 +9,11 @@ body {
   font-family: "Berkshire Swash", cursive;
 }
 
+/* line 10, ../sass/base/_base.scss */
+.img-thumbnail {
+  border-radius: 0px;
+}
+
 /* line 1, ../sass/base/_mixin.scss */
 .buynow {
   border: 1px solid #FF0000;
@@ -415,28 +420,13 @@ body {
 
 /* line 45, ../sass/module/_thanka1.scss */
 .effect3 {
-  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* line 49, ../sass/module/_thanka1.scss */
+/* line 50, ../sass/module/_thanka1.scss */
 .effect3:before {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width: 300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /* line 1, ../sass/module/_thanka2.scss */
@@ -591,7 +581,7 @@ body {
 
 /* line 1, ../sass/module/_footer.scss */
 .footer {
-  background-color: #363941;
+  background-color: #40434c;
   padding-top: 40px;
   padding-right: 0;
   padding-bottom: 0px;
@@ -602,6 +592,10 @@ body {
                                                */
 }
 /* line 9, ../sass/module/_footer.scss */
+.footer a {
+  color: #fff;
+}
+/* line 13, ../sass/module/_footer.scss */
 .footer .title-widget {
   color: #898989;
   font-size: 20px;
@@ -616,7 +610,7 @@ body {
   margin-left: 0;
   padding-left: 28px;
 }
-/* line 24, ../sass/module/_footer.scss */
+/* line 28, ../sass/module/_footer.scss */
 .footer .title-widget::before {
   background-color: #ea5644;
   content: "";
@@ -626,12 +620,12 @@ body {
   top: -2px;
   width: 5px;
 }
-/* line 36, ../sass/module/_footer.scss */
+/* line 40, ../sass/module/_footer.scss */
 .footer .widget_nav_menu ul {
   list-style: outside none none;
   padding-left: 0;
 }
-/* line 41, ../sass/module/_footer.scss */
+/* line 45, ../sass/module/_footer.scss */
 .footer .widget_archive ul li {
   background-color: rgba(0, 0, 0, 0.3);
   content: "";
@@ -641,7 +635,7 @@ body {
   top: 7px;
   width: 3px;
 }
-/* line 52, ../sass/module/_footer.scss */
+/* line 56, ../sass/module/_footer.scss */
 .footer .widget_nav_menu ul li {
   font-size: 13px;
   font-weight: 700;
@@ -653,7 +647,7 @@ body {
   padding-bottom: 7px;
   width: 95%;
 }
-/* line 64, ../sass/module/_footer.scss */
+/* line 68, ../sass/module/_footer.scss */
 .footer .title-median {
   color: #636363;
   font-size: 20px;
@@ -662,17 +656,11 @@ body {
   text-transform: uppercase;
   font-family: 'Fjalla One', sans-serif;
 }
-/* line 73, ../sass/module/_footer.scss */
+/* line 77, ../sass/module/_footer.scss */
 .footer .footerp p {
   font-family: 'Gudea', sans-serif;
 }
-/* line 78, ../sass/module/_footer.scss */
-.footer #social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-/* line 83, ../sass/module/_footer.scss */
+/* line 87, ../sass/module/_footer.scss */
 .footer #social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
@@ -682,41 +670,41 @@ body {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }
-/* line 95, ../sass/module/_footer.scss */
+/* line 99, ../sass/module/_footer.scss */
 .footer .social-fb:hover {
   color: #3B5998;
 }
-/* line 98, ../sass/module/_footer.scss */
+/* line 102, ../sass/module/_footer.scss */
 .footer .social-tw:hover {
   color: #4099FF;
 }
-/* line 101, ../sass/module/_footer.scss */
+/* line 105, ../sass/module/_footer.scss */
 .footer .social-gp:hover {
   color: #d34836;
 }
-/* line 104, ../sass/module/_footer.scss */
+/* line 108, ../sass/module/_footer.scss */
 .footer .social-em:hover {
   color: #f39c12;
 }
-/* line 107, ../sass/module/_footer.scss */
+/* line 111, ../sass/module/_footer.scss */
 .footer .nomargin {
   margin: 0px;
   padding: 0px;
 }
-/* line 111, ../sass/module/_footer.scss */
+/* line 115, ../sass/module/_footer.scss */
 .footer .footer-bottom {
   background-color: #171b26;
   min-height: 30px;
   width: 100%;
 }
-/* line 116, ../sass/module/_footer.scss */
+/* line 120, ../sass/module/_footer.scss */
 .footer .copyright {
   color: #fff;
   line-height: 30px;
   min-height: 30px;
   padding: 7px 0;
 }
-/* line 122, ../sass/module/_footer.scss */
+/* line 126, ../sass/module/_footer.scss */
 .footer .design {
   color: #fff;
   line-height: 30px;
@@ -724,20 +712,20 @@ body {
   padding: 7px 0;
   text-align: right;
 }
-/* line 129, ../sass/module/_footer.scss */
+/* line 133, ../sass/module/_footer.scss */
 .footer .design a {
   color: #fff;
 }
 
-/* line 135, ../sass/module/_footer.scss */
+/* line 139, ../sass/module/_footer.scss */
 .payment--method i {
   font-size: 50px;
 }
-/* line 138, ../sass/module/_footer.scss */
+/* line 142, ../sass/module/_footer.scss */
 .payment--method i {
   margin-left: 10px;
 }
-/* line 141, ../sass/module/_footer.scss */
+/* line 145, ../sass/module/_footer.scss */
 .payment--method i:first-child {
   margin-left: 0px;
 }
@@ -760,4 +748,78 @@ body {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
+}
+
+/* line 1, ../sass/module/page/_moreproductpage.scss */
+.pagination {
+  margin-top: 30px;
+}
+/* line 3, ../sass/module/page/_moreproductpage.scss */
+.pagination a {
+  color: #363941 !important;
+}
+
+/* line 8, ../sass/module/page/_moreproductpage.scss */
+.pagination > .active > a {
+  background-color: #363941;
+  color: #fff !important;
+}
+/* line 11, ../sass/module/page/_moreproductpage.scss */
+.pagination > .active > a:hover {
+  background-color: #40434c;
+}
+
+/* line 18, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .thanka1 {
+  padding: 0px 0px;
+}
+/* line 20, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .thanka1 h2 {
+  margin-bottom: 40px;
+}
+/* line 23, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .thanka1 .card {
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0px;
+}
+/* line 30, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .video {
+  padding: 15px;
+}
+/* line 35, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .viewmore {
+  margin-top: 20px;
+}
+/* line 37, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .viewmore a {
+  text-decoration: none;
+  color: #363941;
+  transition: 0.3s;
+}
+/* line 42, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .viewmore a:hover, .youmaylike .viewmore a:active, .youmaylike .viewmore a:focus {
+  color: #000 !important;
+}
+/* line 45, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .viewmore .btnview {
+  font-size: 16px;
+  border-radius: 0px;
+  padding: 5px 20px;
+  outline: 1px solid #363941;
+  transition: 0.3s;
+}
+/* line 55, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .viewmore .btnview:hover {
+  background-color: #363941;
+  color: white;
+}
+/* line 62, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .effect3 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+/* line 67, ../sass/module/page/_moreproductpage.scss */
+.youmaylike .effect3:before {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
