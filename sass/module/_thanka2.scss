@@ -6,9 +6,43 @@
 		margin-bottom: 40px;
 	}
 	.card{
-		background-color: #40434c;
+		background-color: $lightbg;
 		padding: 10px;
 		margin: 20px 0px;
 	}
 }
 
+
+.viewmorelight{
+	margin-top: 20px;
+	a {
+		text-decoration: none;
+		color: #fff;
+		transition: 0.3s;
+	}
+	a:hover, a:active, a:focus{
+		color: #efefef !important;
+	}
+	.btnview{
+		background-color: $darkbg;
+		font-size: 16px;
+		border-radius: 0px;
+		padding: 5px 20px; 
+		outline: 1px solid #fff;
+		transition: 0.3s;
+	}
+	.btnview:hover{
+		background-color: #efefef;
+		color: $darkbg;
+	}
+}
+
+
+.effect2 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.effect2:before {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

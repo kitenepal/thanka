@@ -12,9 +12,9 @@ body {
 /* line 1, ../sass/base/_mixin.scss */
 .buynow {
   border: 1px solid #FF0000;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
   font-size: 12px;
   font-family: arial, helvetica, sans-serif;
   padding: 10px 10px 10px 10px;
@@ -261,6 +261,59 @@ body {
   background-repeat: none !important;
 }
 
+/* line 102, ../sass/module/_navbar.scss */
+.navbar .search-container {
+  float: right;
+}
+
+/* line 106, ../sass/module/_navbar.scss */
+.navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  outline: solid #CCCCCC 1px;
+  outline-offset: -1px;
+}
+
+/* line 115, ../sass/module/_navbar.scss */
+.navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 126, ../sass/module/_navbar.scss */
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 131, ../sass/module/_navbar.scss */
+  .navbar .search-container {
+    float: none;
+  }
+
+  /* line 134, ../sass/module/_navbar.scss */
+  .navbar a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  /* line 142, ../sass/module/_navbar.scss */
+  .navbar input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
 /* line 2, ../sass/module/_heroslider.scss */
 .heroslider .btn-min-block {
   min-width: 170px;
@@ -401,6 +454,46 @@ body {
   background-color: #40434c;
   padding: 10px;
   margin: 20px 0px;
+}
+
+/* line 16, ../sass/module/_thanka2.scss */
+.viewmorelight {
+  margin-top: 20px;
+}
+/* line 18, ../sass/module/_thanka2.scss */
+.viewmorelight a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+/* line 23, ../sass/module/_thanka2.scss */
+.viewmorelight a:hover, .viewmorelight a:active, .viewmorelight a:focus {
+  color: #efefef !important;
+}
+/* line 26, ../sass/module/_thanka2.scss */
+.viewmorelight .btnview {
+  background-color: #363941;
+  font-size: 16px;
+  border-radius: 0px;
+  padding: 5px 20px;
+  outline: 1px solid #fff;
+  transition: 0.3s;
+}
+/* line 34, ../sass/module/_thanka2.scss */
+.viewmorelight .btnview:hover {
+  background-color: #efefef;
+  color: #363941;
+}
+
+/* line 41, ../sass/module/_thanka2.scss */
+.effect2 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* line 46, ../sass/module/_thanka2.scss */
+.effect2:before {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /* line 6, ../sass/module/_review.scss */
@@ -634,4 +727,17 @@ body {
 /* line 129, ../sass/module/_footer.scss */
 .footer .design a {
   color: #fff;
+}
+
+/* line 135, ../sass/module/_footer.scss */
+.payment--method i {
+  font-size: 50px;
+}
+/* line 138, ../sass/module/_footer.scss */
+.payment--method i {
+  margin-left: 10px;
+}
+/* line 141, ../sass/module/_footer.scss */
+.payment--method i:first-child {
+  margin-left: 0px;
 }
