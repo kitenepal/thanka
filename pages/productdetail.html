@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../stylesheets/kitenepal/css/kitenepal.min.css">
   <link rel="stylesheet" href="../stylesheets/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheets/plugins/selectCountry/css/bootstrap-formhelpers.min.css">
 </head>
 
 <body>
@@ -236,7 +237,6 @@
     </div>
   </nav>
 
-
   <!-- product-img -->
   <div class="container">
     <div class="row">
@@ -262,7 +262,7 @@
 
         <button class="btn btn-default">Order Now</button>
         <button class="btn btn-primary">Add to Cart</button>
-<br><br>
+        <br><br>
         <p>
           Shipping included
           <br>
@@ -270,6 +270,42 @@
           <br>
           Trustpilot Score 
         </p>
+      </div>
+
+      <div class="col-md-4">
+        <div class="well">
+        <form role="form">
+          <h2>Inquiry Form</h2>
+          <hr class="colorgraph">
+            <div class="form-group">
+              <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+            </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+          </div>
+          <label for="">Select Country : </label>
+          <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
+            <input type="hidden" value="">
+            <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+              <span class="bfh-selectbox-option input-medium" data-option=""></span>
+              <b class="caret"></b>
+            </a>
+            <div class="bfh-selectbox-options">
+              <input type="text" class="bfh-selectbox-filter">
+              <div role="listbox">
+              <ul role="option">
+              </ul>
+              </div>
+            </div>
+          </div>
+          <br>
+          <textarea class="form-control vresize" id="encJs" placeholder="Message"></textarea>
+          <hr class="colorgraph">
+          <div class="row">
+            <div class="col-xs-12 col-md-12"><a href="#" class="btn btn-success btn-block btn-lg">Send Message</a></div>
+          </div>
+        </form>
+      </div>
       </div>
     </div>
 
@@ -504,6 +540,7 @@
   <script src="js/navbar.js"></script>
 <!-- magnify -->
   <script src="../js/product.js"></script>
+  <script src="../stylesheets/plugins/selectCountry/js/bootstrap-formhelpers.min.js"></script>
 </body>
 
 </html>
